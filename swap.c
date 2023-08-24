@@ -28,3 +28,4 @@ void f_swap(stack_t **head, unsigned int counter)
 	aux = h->n;
 	h->n = h->next->n;
 	h->next->n = aux;
+}
